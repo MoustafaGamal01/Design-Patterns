@@ -9,9 +9,9 @@ class Program
     {
         #region StrategyPatternTesting
         //PaymentProcessor paymentProcessor = new PaymentProcessor(new VisaPaymentStrategy());
-        //Order order = new Order(1, "Order #1 Description", 1500);
+        //Order order = new Order();
 
-        //paymentProcessor.ProcessOrderPayment(order); 
+        //paymentProcessor.ProcessOrderPayment(order);
         #endregion
 
     }
