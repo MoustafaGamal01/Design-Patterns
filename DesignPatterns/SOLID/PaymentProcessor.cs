@@ -18,7 +18,7 @@ namespace DesignPatterns.SOLID
         public void ProcessOrderPayment(Order order)
         { 
             Console.WriteLine($"Processing payment for order: {order.GetData()}");
-            Console.WriteLine($"Issuing payment for amount: {order.GetTotalPrice()}");
+            Console.WriteLine($"Issuing payment for amount: {order.Total}");
 
             // if(payment.GetType == "MasterCard")
             // else if(payment.GetType == "Visa")
@@ -29,7 +29,7 @@ namespace DesignPatterns.SOLID
             // implementing this interface and in case we need to add some other method like "Paypal"
             // we will just add a new class implementing the interface (IPaymentStrategy) and pass it to the PaymentProcessor
             
-            strategy.ProcessPayment(order.GetTotalPrice());
+            strategy.ProcessPayment(order.Total);
         }
     }
 }
