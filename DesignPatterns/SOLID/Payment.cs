@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Models
+﻿namespace DesignPatterns.SOLID
 {
     public class Payment
     {

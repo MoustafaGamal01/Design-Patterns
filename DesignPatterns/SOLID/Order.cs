@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Models
+namespace DesignPatterns.SOLID
 {
     internal class Order
     {
@@ -19,16 +19,16 @@ namespace DesignPatterns.Models
             Description = description;
             Total = total;
         }
-        
+
         public Order()
         {
 
         }
-        
+
         public string GetData()
         {
             return $"Order Id: {Id}, Description: {Description}, Total: {Total}";
         }
-       
+
     }
 }

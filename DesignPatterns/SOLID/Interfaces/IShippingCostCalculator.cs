@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.SOLID
+namespace DesignPatterns.SOLID.Interfaces
 {
     // For Liskov Substitution Principle
     // Instead of making any class that extends order class 
