@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.SOLID
 {
-    internal class Subscriper : ISubscriptionNotificationService
+    public class Subscriber : ISubscriptionNotificationService
     {
         // Violation of Interface Segregation Principle!
         // so we will implement the methods of the interface that he uses

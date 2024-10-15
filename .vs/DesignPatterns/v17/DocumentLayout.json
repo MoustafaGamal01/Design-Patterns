@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\aia\\desktop\\design patterns course\\designpatterns\\designpatterns\\solid\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\solid\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\aia\\desktop\\design patterns course\\designpatterns\\designpatterns\\observer\\onlinemarketplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\observer\\onlinemarketplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\aia\\desktop\\design patterns course\\designpatterns\\designpatterns\\solid\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\solid\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\aia\\desktop\\design patterns course\\designpatterns\\designpatterns\\solid\\subscriper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\solid\\subscriper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\aia\\desktop\\design patterns course\\designpatterns\\designpatterns\\observer\\subscriberop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\observer\\subscriberop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\aia\\desktop\\design patterns course\\designpatterns\\designpatterns\\solid\\isubscriptionnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\solid\\isubscriptionnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\designpatterns\\observer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\observer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|c:\\users\\aia\\desktop\\design patterns course\\designpatterns\\designpatterns\\observer\\jobfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\observer\\jobfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\designpatterns\\observer\\isubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\observer\\isubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\designpatterns\\observer\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCB7AB9-8F03-4AF9-8ED2-F4F1FC3102B3}|DesignPatterns\\DesignPatterns.csproj|solutionrelative:designpatterns\\observer\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ISubscriptionNotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\SOLID\\ISubscriptionNotificationService.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\SOLID\\ISubscriptionNotificationService.cs",
-              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\SOLID\\ISubscriptionNotificationService.cs*",
-              "RelativeToolTip": "DesignPatterns\\SOLID\\ISubscriptionNotificationService.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "DocumentIndex": 4,
+              "Title": "JobFinder.cs",
+              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\JobFinder.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Observer\\JobFinder.cs",
+              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\JobFinder.cs",
+              "RelativeToolTip": "DesignPatterns\\Observer\\JobFinder.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowBAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:53:17.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Subscriper.cs",
-              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\SOLID\\Subscriper.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\SOLID\\Subscriper.cs",
-              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\SOLID\\Subscriper.cs*",
-              "RelativeToolTip": "DesignPatterns\\SOLID\\Subscriper.cs*",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:49:26.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\SOLID\\Customer.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\SOLID\\Customer.cs",
-              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\SOLID\\Customer.cs*",
-              "RelativeToolTip": "DesignPatterns\\SOLID\\Customer.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:29:02.388Z",
+              "WhenOpened": "2024-10-15T09:05:08.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserManager.cs",
-              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\SOLID\\IUserManager.cs",
-              "RelativeDocumentMoniker": "DesignPatterns\\SOLID\\IUserManager.cs",
-              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\SOLID\\IUserManager.cs*",
-              "RelativeToolTip": "DesignPatterns\\SOLID\\IUserManager.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Program.cs",
+              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Program.cs",
+              "RelativeToolTip": "DesignPatterns\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:28:49.022Z",
+              "WhenOpened": "2024-10-14T09:16:26.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubscriberOp.cs",
+              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\SubscriberOp.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Observer\\SubscriberOp.cs",
+              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\SubscriberOp.cs",
+              "RelativeToolTip": "DesignPatterns\\Observer\\SubscriberOp.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:36:27.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISubscriber.cs",
+              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\ISubscriber.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Observer\\ISubscriber.cs",
+              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\ISubscriber.cs",
+              "RelativeToolTip": "DesignPatterns\\Observer\\ISubscriber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:58:31.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\Product.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Observer\\Product.cs",
+              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\Product.cs",
+              "RelativeToolTip": "DesignPatterns\\Observer\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T09:00:46.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Offer.cs",
+              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\Offer.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Observer\\Offer.cs",
+              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\Offer.cs",
+              "RelativeToolTip": "DesignPatterns\\Observer\\Offer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:39:51.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OnlineMarketPlace.cs",
+              "DocumentMoniker": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\OnlineMarketPlace.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Observer\\OnlineMarketPlace.cs",
+              "ToolTip": "C:\\Users\\AIA\\Desktop\\Design Patterns Course\\DesignPatterns\\DesignPatterns\\Observer\\OnlineMarketPlace.cs",
+              "RelativeToolTip": "DesignPatterns\\Observer\\OnlineMarketPlace.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:25:14.63Z",
               "EditorCaption": ""
             }
           ]

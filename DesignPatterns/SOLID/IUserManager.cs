@@ -8,6 +8,8 @@ namespace DesignPatterns.SOLID
 {
     public interface IUserManager
     {
+        //void SubscribeToNewProductsAvailability();
+        //void SubscribeToSMSNorifications();
         void UpdateToUserProfile(Customer customer);
         void ChangePassword(Customer customer, string newPassword);
     }
