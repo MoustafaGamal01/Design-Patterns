@@ -4,6 +4,9 @@ using System;
 using System.Diagnostics;
 using System.Linq.Expressions;
 using System.Reflection;
+using DesignPatterns.TemplateMethod.Interfaces;
+using DesignPatterns.TemplateMethod;
+using DesignPatterns.Memento;
 
 class Program
 {
@@ -56,14 +59,52 @@ class Program
 
         //var NewPaymentCheckout = new Checkout(new DesignPatterns.Strategy.NewPaymentMethodStrategy());
         //NewPaymentCheckout.ProcessPayment(DellLaptob.GetPrice());
-       
+
         //var mastercardCheckout = new Checkout(new DesignPatterns.Strategy.MastercardPaymentStrategy());
         //mastercardCheckout.ProcessPayment(Mobile.GetPrice());
-       
+
         //var visaCheckout = new Checkout(new DesignPatterns.Strategy.VisaPaymentStrategy());
         //visaCheckout.ProcessPayment(Wallet.GetPrice());
         #endregion
 
+        #region TemplateMethod
 
+        //ICVReportGeneration pdfGenerationReport = new PDFCVReportGeneration();
+        //var generatedPDFRepot = pdfGenerationReport.GenerateReport("/gemy/Desktop/CV.pdf");
+        //Console.WriteLine("Generated PDF Report: " + generatedPDFRepot.IsPassed());
+        //Console.WriteLine("---------------------------------------------------");
+        //ICVReportGeneration wordGenerationReport = new WordCVReportGeneration();
+        //var generatedwordRepot = wordGenerationReport.GenerateReport("/gemy/Desktop/CV.docx");
+        //Console.WriteLine("Generated Word Report: " + generatedwordRepot.IsPassed());
+
+        //Console.WriteLine("---------------------------------------------------");
+        //ICVReportGeneration imageGenerationReport = new ImageCVReportGeneration();
+        //var generatedImageRepot = imageGenerationReport.GenerateReport("/gemy/Desktop/CV.png");
+        //Console.WriteLine("Generated Image Report: " + generatedImageRepot.IsPassed());
+
+        #endregion
+
+        #region Memento
+
+        History history = new History();
+        TextEditor textEditor = new TextEditor();
+
+        textEditor.SetContent("Hello!");
+        history.SaveHistoryState(textEditor.Save());
+
+        textEditor.SetContent("World!");
+        history.SaveHistoryState(textEditor.Save());
+
+        textEditor.SetContent("Welcome to Design Pattern Course!");
+        history.SaveHistoryState(textEditor.Save());
+
+        textEditor.Restore(history.Undo());
+        textEditor.Restore(history.Undo());
+        textEditor.Restore(history.Undo());
+        textEditor.Restore(history.Redo());
+        textEditor.Restore(history.Redo());
+
+        Console.WriteLine(textEditor.GetContent());
+        #endregion
     }
 }
