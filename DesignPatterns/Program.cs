@@ -7,6 +7,8 @@ using System.Reflection;
 using DesignPatterns.TemplateMethod.Interfaces;
 using DesignPatterns.TemplateMethod;
 using DesignPatterns.Memento;
+using DesignPatterns.Visitor.Interfaces;
+using DesignPatterns.Visitor;
 
 class Program
 {
@@ -86,25 +88,42 @@ class Program
 
         #region Memento
 
-        History history = new History();
-        TextEditor textEditor = new TextEditor();
+        //History history = new History();
+        //TextEditor textEditor = new TextEditor();
 
-        textEditor.SetContent("Hello!");
-        history.SaveHistoryState(textEditor.Save());
+        //textEditor.SetContent("Hello!");
+        //history.SaveHistoryState(textEditor.Save());
 
-        textEditor.SetContent("World!");
-        history.SaveHistoryState(textEditor.Save());
+        //textEditor.SetContent("World!");
+        //history.SaveHistoryState(textEditor.Save());
 
-        textEditor.SetContent("Welcome to Design Pattern Course!");
-        history.SaveHistoryState(textEditor.Save());
+        //textEditor.SetContent("Welcome to Design Pattern Course!");
+        //history.SaveHistoryState(textEditor.Save());
 
-        textEditor.Restore(history.Undo());
-        textEditor.Restore(history.Undo());
-        textEditor.Restore(history.Undo());
-        textEditor.Restore(history.Redo());
-        textEditor.Restore(history.Redo());
+        //textEditor.Restore(history.Undo());
+        //textEditor.Restore(history.Undo());
+        //textEditor.Restore(history.Undo());
+        //textEditor.Restore(history.Redo());
+        //textEditor.Restore(history.Redo());
 
-        Console.WriteLine(textEditor.GetContent());
+        //Console.WriteLine(textEditor.GetContent());
+        #endregion
+
+        #region Visitor
+        IScheduleManagement scheduleManagement = new DayShiftScheduleManagement();
+        scheduleManagement.Accept(new ManageLeaveRequestsVisitor());
+
+        List<IScheduleManagement> scheduleManagements = new List<IScheduleManagement>
+        {
+            new DayShiftScheduleManagement(),
+            new NightShiftScheduleManagement(),
+            new RemoteWorkScheduleManagement()
+        };
+
+        foreach (var schedule in scheduleManagements)
+        {
+            schedule.Accept(new CalcBonusVisitor());
+        }
         #endregion
     }
 }
