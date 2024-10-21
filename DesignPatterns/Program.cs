@@ -9,6 +9,7 @@ using DesignPatterns.TemplateMethod;
 using DesignPatterns.Memento;
 using DesignPatterns.Visitor.Interfaces;
 using DesignPatterns.Visitor;
+using DesignPatterns.Iterator;
 
 class Program
 {
@@ -110,20 +111,33 @@ class Program
         #endregion
 
         #region Visitor
-        IScheduleManagement scheduleManagement = new DayShiftScheduleManagement();
-        scheduleManagement.Accept(new ManageLeaveRequestsVisitor());
+        //IScheduleManagement scheduleManagement = new DayShiftScheduleManagement();
+        //scheduleManagement.Accept(new ManageLeaveRequestsVisitor());
 
-        List<IScheduleManagement> scheduleManagements = new List<IScheduleManagement>
-        {
-            new DayShiftScheduleManagement(),
-            new NightShiftScheduleManagement(),
-            new RemoteWorkScheduleManagement()
-        };
+        //List<IScheduleManagement> scheduleManagements = new List<IScheduleManagement>
+        //{
+        //    new DayShiftScheduleManagement(),
+        //    new NightShiftScheduleManagement(),
+        //    new RemoteWorkScheduleManagement()
+        //};
 
-        foreach (var schedule in scheduleManagements)
+        //foreach (var schedule in scheduleManagements)
+        //{
+        //    schedule.Accept(new CalcBonusVisitor());
+        //}
+        #endregion
+
+        #region Iterator
+
+        EmployeeHierarchyCollection employeeHierarchyCollection
+            = new EmployeeHierarchyCollection("123");
+
+        var Iterator1 = employeeHierarchyCollection.CreateEmployeeSubOrdinatesIterator();
+        while (Iterator1.hasNext())
         {
-            schedule.Accept(new CalcBonusVisitor());
+            Console.WriteLine(Iterator1.getNextEmployee().GetName());
         }
+
         #endregion
     }
 }
